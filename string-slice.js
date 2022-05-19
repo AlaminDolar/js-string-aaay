@@ -8,5 +8,9 @@ const smallSlice= anthem.slice(5,18);
 // concat
 const firt ='Alamin';
 const second ='Dolar';
-const fullname= firt.concat(second).concat('Engineer');
-console.log(fullname);
+const fullname= firt.concat(second).concat(' Engineer');
+// console.log(fullname);
+
+const w=['A','B','C','D']
+const allJoined= w.join(',');
+console.log(allJoined);
