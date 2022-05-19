@@ -22,8 +22,10 @@ for(const product of products){
 // includes
 for(const product of products){
     if(product.toLowerCase().includes(searching.toLowerCase())){
-        output.push(product);
+        // output.push(product);
     }
 }
 
-console.log(output);
+// console.log(output);
+
+// starts with
